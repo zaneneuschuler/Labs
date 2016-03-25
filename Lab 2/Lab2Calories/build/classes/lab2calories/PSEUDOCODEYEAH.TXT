@@ -1,0 +1,29 @@
+//let's get some input
+select gender
+input age
+input height in inches
+input weight in pounds
+select activity level
+//calculate
+//but first, let's declare some shit
+declare: bmr, calories, height, weight, age
+
+//actually calculate
+if male:
+    BMR = 66 + (6.23 * weight in pounds) + (12.7 * height in inches) – (6.8 X age)
+if female:
+    BMR = 655 + (4.35 * weight in pounds) + (4.7 * height in inches) – (4.7 X age)
+
+if little exercise:
+    1.2 * bmr
+if light exercise:
+    1.375 * bmr
+if moderate exercise:
+    1.55 * bmr
+if heavy exercise: 
+    1.725 * bmr
+
+//output
+
+print calories
+

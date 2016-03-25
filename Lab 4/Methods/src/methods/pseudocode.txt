@@ -1,0 +1,14 @@
+//to do: search an input array for an input value and return the index or subscript where in the array it was found
+//if the value isn't found, return -1
+
+// input: parameter 1: integer array parameter; parameter 2: int value
+int sub = -1
+int max = vals.length
+int i = 0
+
+while i < max && sub == -1
+    sub = i 
+end if
+
+//output - return where in the array we found it or -1
+return sub

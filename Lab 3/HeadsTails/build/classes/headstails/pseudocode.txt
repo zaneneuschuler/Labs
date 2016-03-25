@@ -1,0 +1,18 @@
+before everything: import random number generator
+
+//input
+uhhh... press button.
+
+//calculate
+
+random number gen
+if 0; heads++;
+if 1; tails++;
+
+//display
+
+calculate percentage for head and tails 
+print tails to list
+print heads to list
+print head percentage to list
+print tails percentage to list

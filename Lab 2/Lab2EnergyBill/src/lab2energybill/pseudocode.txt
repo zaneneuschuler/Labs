@@ -1,0 +1,16 @@
+//input
+input kwh
+
+//process
+//i think i want the easy way out because i don't want to mess with shit
+if kwh < 250
+    kwh * .1
+if 250 < kwh < 300
+    kwh * .15
+if 300 < kwh
+    kwh * .2
+
+//output
+
+print result, rounded to 2 decimal places
+
