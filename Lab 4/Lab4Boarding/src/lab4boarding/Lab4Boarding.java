@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package lab4boarding;
-
+import java.text.DecimalFormat;
 /**
  *
  * @author zane.neuschuler
@@ -16,6 +16,8 @@ public class Lab4Boarding {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        BoardingForm newForm = new BoardingForm();
+        newForm.setVisible(true);
     }
     
 }
