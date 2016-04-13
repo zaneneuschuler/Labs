@@ -1,0 +1,42 @@
+//variables and stuff
+int dollars
+int twenties
+int tens
+int fives
+int ones
+
+//do some stuff
+dollars = txtMoney
+
+twenties = dollars / 20
+dollars = dollars - (twenties * 20)
+tens = dollars / 10
+dollars = dollars - (tens * 10)
+fives = dollars / 5
+ones = dollars - (fives * 5)
+
+//output
+print twenties to lblTwenties
+print tens to lblTens
+print fives to lblFives
+print ones to lblOnes
+
+
+//pseudocode for exercise 2 because i forgot it
+float subtotal
+float tax
+float commission 
+float total
+
+//do stuff
+subtotal = txtsubtotal
+if subtotal <= 200, subtotal * .02 = commish
+if subtotal <=499, subtotal * .05 = commish
+if subtotal <=999, subtotal *.08 = commish
+else subtotal * .1 = commish
+
+tax = subtotal * .075
+
+finaltotal = subtotal + tax
+
+print to labels
